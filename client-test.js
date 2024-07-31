@@ -4,7 +4,7 @@ const socket = new WebSocket('ws://wsnoti0002.kotak.pro:9115');
 
 socket.on('open', () => {
     console.log('Connected to the WebSocket server');
-    socket.send('Hello Server!');
+    // socket.send('Hello Server!'); 
 });
 
 socket.on('message', (data) => {

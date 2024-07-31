@@ -1,6 +1,6 @@
 /* A quite detailed WebSockets example */
 
-const uWS = require('uWebSockets.js');
+// const uWS = require('uWebSockets.js');
 const mysql = require("mysql2");
 const port = 9115;
 
